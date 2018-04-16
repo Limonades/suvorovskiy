@@ -1,0 +1,125 @@
+//google font(s)
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
+//suvorovskiy icons
+@font-face {
+    font-family: 'Suvorovskiy';
+    src:  url('../fonts/Suvorovskiy.eot?p5yrcg');
+    src:  url('../fonts/Suvorovskiy.eot?p5yrcg#iefix') format('embedded-opentype'),
+    url('../fonts/Suvorovskiy.ttf?p5yrcg') format('truetype'),
+    url('../fonts/Suvorovskiy.woff?p5yrcg') format('woff'),
+    url('../fonts/Suvorovskiy.svg?p5yrcg#Suvorovskiy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Suvorovskiy' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+    content: "\e913";
+    color: #f59d0f;
+}
+.icon-messenger .path1:before {
+    content: "\e900";
+    color: rgb(0, 0, 0);
+}
+.icon-messenger .path2:before {
+    content: "\e901";
+    margin-left: -0.9912109375em;
+    color: rgb(255, 255, 255);
+}
+.icon-viber .path1:before {
+    content: "\e902";
+    color: rgb(123, 81, 157);
+}
+.icon-viber .path2:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-viber .path3:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-viber .path4:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-telegram .path1:before {
+    content: "\e906";
+    color: rgb(100, 169, 220);
+}
+.icon-telegram .path2:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-list-type:before {
+    content: "\e908";
+    color: #667f97;
+}
+.icon-plus:before {
+    content: "\e909";
+}
+.icon-login:before {
+    content: "\e90a";
+}
+.icon-arrow-right .path1:before {
+    content: "\e90b";
+    color: rgb(0, 0, 0);
+}
+.icon-arrow-right .path2:before {
+    content: "\e90c";
+    margin-left: -1em;
+    color: rgb(245, 157, 15);
+}
+.icon-arrow-right .path3:before {
+    content: "\e90d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-arrow-left .path1:before {
+    content: "\e90e";
+    color: rgb(0, 0, 0);
+    opacity: 0.3638;
+}
+.icon-arrow-left .path2:before {
+    content: "\e90f";
+    margin-left: -1em;
+    color: rgb(245, 157, 15);
+    opacity: 0.3638;
+}
+.icon-arrow-left .path3:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+    opacity: 0.3638;
+}
+.icon-mail:before {
+    content: "\e911";
+}
+.icon-mark:before {
+    content: "\e912";
+    color: #f59d0f;
+}
+.icon-facebook2:before {
+    content: "\ea91";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}

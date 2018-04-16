@@ -1,0 +1,28 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    padding-top: rem-calc(120);
+    @include breakpoint(medium down) {
+        padding-top: rem-calc(84);
+    }
+    @include breakpoint(small only) {
+        padding-top: rem-calc(82);
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}

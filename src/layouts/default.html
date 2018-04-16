@@ -1,0 +1,137 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+
+  <nav>
+    <div class="row column nav-bg">
+      <div class="nav-wrap">
+        <a class="nav-logo" href="">
+          <img class="show-for-large" src="../assets/img/logo/logo-desktop.svg" alt="logo of the site">
+          <img class="hide-for-large" src="../assets/img/logo/logo-mobile.svg" alt="logo of the site">
+        </a>
+        <div class="nav-menu-wrap">
+          <ul class="nav-menu">
+            <li class="nav-menu-item show-for-medium">
+              <a class="nav-menu-link" href="">
+                О нас
+              </a>
+            </li>
+            <li class="nav-menu-item show-for-medium">
+              <a class="nav-menu-link" href="">
+                Новости
+              </a>
+            </li>
+            <li class="nav-menu-item show-for-medium">
+              <a class="nav-menu-link" href="">
+                Контакты
+              </a>
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-link nav-menu-link--log" href="">
+                <span class="show-for-large">
+                  Вход в кабинет
+                </span>
+                <i class="icon-login"></i>
+              </a>
+            </li>
+            <li class="nav-menu-item hide-for-medium">
+              <div class="nav-ham">
+                <div class="menu-wrapper">
+                  <div class="hamburger-menu"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="nav-tel">
+            <p class="nav-tel-numb">
+              15-01
+            </p>
+            <p class="nav-tel-txt">
+              Единый номер обслуживания
+            </p>
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <ul class="nav-mobile-menu">
+      <li class="nav-mobile-menu-item">
+        <a class="nav-mobile-menu-link" href="">О нас</a>
+      </li>
+      <li class="nav-mobile-menu-item">
+        <a class="nav-mobile-menu-link" href="">Новости</a>
+      </li>
+      <li class="nav-mobile-menu-item">
+        <a class="nav-mobile-menu-link" href="">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+
+  <footer>
+    <section class="footer-contact">
+      <div class="row column">
+        <div class="footer-contact-wrap">
+          <div class="footer-address">
+            <p>
+              <i class="icon-mark"></i>
+              Украина, 65069, г. Одесса, Ул. Капитана Кузнецова, 108
+            </p>
+          </div>
+          <div class="footer-mail">
+            <i class="icon-email"></i>
+            <a href="mailto:contact@suvorovskiy.com.ua">
+              contact@suvorovskiy.com.ua
+            </a>
+          </div>
+          <div class="footer-tel">
+            <p>
+              Единый номер обслуживания:
+              <a href="tel:15-01">
+                15-01
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-info">
+      <div class="row column">
+        <div class="footer-info-wrap">
+          <div class="footer-name">
+            <p>
+              © 2011-2017 УК «Суворовский»
+            </p>
+          </div>
+          <div class="footer-design">
+            <p>
+              Дизайн сайта
+            </p>
+            <a href="#" target="_blank">
+              degroup
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
